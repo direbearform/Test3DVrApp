@@ -239,7 +239,7 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: TestKeyStores/testuser1.keystore'
-  AndroidKeyaliasName: test_key_2
+  AndroidKeyaliasName: test_key_1
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -672,7 +672,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    7: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
