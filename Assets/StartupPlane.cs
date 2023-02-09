@@ -8,6 +8,7 @@ public class StartupPlane : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("App Started!");
 #if IS_DEMO_BUILD
         var demoObject = Resources
             .FindObjectsOfTypeAll<GameObject>()
@@ -19,6 +20,6 @@ public class StartupPlane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
